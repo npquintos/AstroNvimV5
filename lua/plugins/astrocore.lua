@@ -25,7 +25,7 @@ return {
       diagnostics = { virtual_text = true, virtual_lines = false }, -- diagnostic settings on startup
       highlighturl = true, -- highlight URLs at start
       notifications = true, -- enable notifications at start
-      guifont = "ComicShannsMonoNerdFont:h16",
+      guifont = "DaddyTimeMono:h16",
     },
     -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
     diagnostics = {
