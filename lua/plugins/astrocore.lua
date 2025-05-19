@@ -13,6 +13,7 @@ return {
   config = true,
   },
   { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+  { "kevinhwang91/nvim-ufo", enabled = false }, 
   -- { "lukas-reineke/indent-blankline.nvim", enabled = false },
   "AstroNvim/astrocore",
   ---@type AstroCoreOpts
