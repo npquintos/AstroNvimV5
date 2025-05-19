@@ -12,7 +12,7 @@ return {
   { import = "astrocommunity.motion.flash-nvim" },
   { import = "astrocommunity.file-explorer.oil-nvim" },
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
-  { import = "astrocommunity.note-taking.neorg" },
+  -- { import = "astrocommunity.note-taking.neorg" },
   -- { import = "astrocommunity.snippet.nvim-snippets" },
   { import = "astrocommunity.completion.coq_nvim" },
   -- { import = "astrocommunity.editing-support.refactoring-nvim" },
