@@ -93,7 +93,7 @@ return {
 
         -- setting a mapping to false will disable it
         ["<C-S>"] = false,
-                ["<right>"] = {
+        ["<right>"] = {
           ":let linenum=getpos('.')[1]|:wincmd l|:call cursor(linenum,0)<cr>",
           desc = "go to same line number at right pane",
         },
