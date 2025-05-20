@@ -14,7 +14,7 @@ return {
   { import = "astrocommunity.colorscheme.bamboo-nvim" },
   -- { import = "astrocommunity.note-taking.neorg" },
   -- { import = "astrocommunity.snippet.nvim-snippets" },
-  { import = "astrocommunity.completion.coq_nvim" },
+  -- { import = "astrocommunity.completion.coq_nvim" },
   -- { import = "astrocommunity.editing-support.refactoring-nvim" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },  
 }
