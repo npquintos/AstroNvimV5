@@ -77,12 +77,12 @@ return {
         ["<C-S-l>"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         ["<C-S-h>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
         
-        -- ["<TAB>"] = {
+        -- ["<TAB>"] = {vim.cmd[[
           -- function! MoveClosingParenthesisAfterNextWord()
           --     if getline(".")[col(".")-1] == "\t" 
           --         execute 'normal xep'
           --     endif
-          -- endfunction,
+          -- endfunction]],
           -- desc = "Move ) after next word",
         -- },
 
