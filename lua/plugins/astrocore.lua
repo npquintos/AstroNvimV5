@@ -76,15 +76,14 @@ return {
         -- navigate buffer tabs
         ["<C-S-l>"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         ["<C-S-h>"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
-
-        -- mappings seen under group name "Buffer"
-        -- ["<Leader>bd"] = {
-          -- function()
-          --   require("astroui.status.heirline").buffer_picker(
-          --     function(bufnr) require("astrocore.buffer").close(bufnr) end
-          --   )
-          -- end,
-          -- desc = "Close buffer from tabline",
+        
+        -- ["<TAB>"] = {
+          -- function! MoveClosingParenthesisAfterNextWord()
+          --     if getline(".")[col(".")-1] == "\t" 
+          --         execute 'normal xep'
+          --     endif
+          -- endfunction,
+          -- desc = "Move ) after next word",
         -- },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
