@@ -35,5 +35,4 @@ return {
       LSPLoading9 = "⠇",
       LSPLoading10 = "⠏",
     },
-  },
 }
