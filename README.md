@@ -31,4 +31,11 @@ git clone https://github.com/npquintos/AstroNvimV5.git ~/.config/nvim
 
 ```shell
 nvim
-```
+
+#### To know which keys map to which plugin,
+run
+```shell
+  *nvim -V1*
+then,
+```shell
+:verbose nmap <key>
