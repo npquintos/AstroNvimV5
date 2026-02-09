@@ -12,6 +12,18 @@ return {
   priority = 1000, -- Very high priority is required, luarocks.nvim should run as the first plugin in your config.
   config = true,
   },
+  {
+    "folke/flash.nvim",
+    keys = {
+      { "T", mode = { "n", "x", "o" }, false },
+    },
+  },
+  {
+    "folke/snacks.nvim",
+    opts = {
+      keys = { "o", false },
+    },
+  },
   { "nvim-neo-tree/neo-tree.nvim", enabled = false },
   { "kevinhwang91/nvim-ufo", enabled = false }, 
   -- { "lukas-reineke/indent-blankline.nvim", enabled = false },
